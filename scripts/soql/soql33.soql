@@ -1,0 +1,1 @@
+select id, name, amount, stageName ,accountid, account.phone, account.type , account.industry from opportunity where (stageName != 'Closed Won' and stageName !='Closed Lost')

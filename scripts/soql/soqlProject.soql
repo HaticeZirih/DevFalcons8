@@ -1,0 +1,6 @@
+//SELECT
+//field names --->id,name,project_name_c
+//from
+//object name ---> salesforce_Project__c
+
+select id, name,Project_Name__c from Salesforce_Project__c
